@@ -1,0 +1,7 @@
+node_modules/
+out/
+.env
+public/audio/cache/
+__pycache__/
+# raw public-domain transfers: re-fetch from the URLs in script/PD_MUSIC.md (only the three edited files are committed)
+public/music/pd/*_19*.mp3

@@ -1,0 +1,430 @@
+{
+  "demo/sully_jackson_1845.jpg": {
+    "title": "Thomas Sully, Andrew Jackson, 1845 (NGA 1128)",
+    "artist": "Thomas Sully",
+    "date": "1845",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thomas_Sully,_Andrew_Jackson,_1845,_NGA_1128.jpg"
+  },
+  "maps/mitchell_1836.jpg": {
+    "title": "Mitchell's Map of the United States",
+    "artist": "Samuel Augustus Mitchell",
+    "date": "1836",
+    "licence": "public domain (Library of Congress, Geography and Map Division)",
+    "page": "https://www.loc.gov/item/87692342/"
+  },
+  "ch06/axeman_attack_map_march1919.jpg": {
+    "title": "File:Axeman Map New Orleans March 1919.jpg",
+    "artist": "Not credited",
+    "date": "1919-03",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Axeman_Map_New_Orleans_March_1919.jpg"
+  },
+  "ch08/pepitone_murdered_birmingham_1919-10-28.jpg": {
+    "title": "\"Italian Merchant Murdered\" (Mike Pepitone), AP wire item \u2014 The Birmingham age-herald (Birmingham, Ala.), October 28, 1919",
+    "artist": "",
+    "date": "1919-10-28",
+    "licence": "Public domain (US newspaper published before 1931); Chronicling America, Library of Congress",
+    "page": "https://www.loc.gov/resource/sn85038485/1919-10-28/ed-1/?sp=16",
+    "source": "https://tile.loc.gov/image-services/iiif/service:ndnp:au:batch_au_carver_ver01:data:sn85038485:00340582937:1919102801:1207/4170,220,730,360/full/0/default.jpg"
+  },
+  "ch07/that_axmans_letter_herald_nola_1919-03-20.jpg": {
+    "title": "\"That Ax-Man's Letter\" editorial \u2014 The herald (New Orleans, La.), March 20, 1919",
+    "artist": "",
+    "date": "1919-03-20",
+    "licence": "Public domain (US newspaper published before 1931); Chronicling America, Library of Congress",
+    "page": "https://www.loc.gov/resource/sn88064020/1919-03-20/ed-1/?sp=4",
+    "source": "https://tile.loc.gov/image-services/iiif/service:ndnp:lu:batch_lu_nightcrawler_ver01:data:sn88064020:00200299930:1919032001:0100/170,1335,1580,1840/full/0/default.jpg"
+  },
+  "ch06/ax_murder_freed_cortimiglia_birmingham_1919-03-15.jpg": {
+    "title": "\"Two Men Held in Connection with Ax Murder Freed\" (Cortimiglia attack, Jordano arrested), AP wire \u2014 The Birmingham age-herald (Birmingham, Ala.), March 15, 1919",
+    "artist": "",
+    "date": "1919-03-15",
+    "licence": "Public domain (US newspaper published before 1931); Chronicling America, Library of Congress",
+    "page": "https://www.loc.gov/resource/sn85038485/1919-03-15/ed-1/?sp=8",
+    "source": "https://tile.loc.gov/image-services/iiif/service:ndnp:au:batch_au_carver_ver01:data:sn85038485:00340582901:1919031501:0255/795,4060,690,1135/full/0/default.jpg"
+  },
+  "ch06/wedding_feast_in_jail_jordano_newbritain_1920-03-22.jpg": {
+    "title": "\"Wedding Feast in Jail\" (Jordanos in Gretna jail) \u2014 New Britain herald (New Britain, Conn.), March 22, 1920",
+    "artist": "",
+    "date": "1920-03-22",
+    "licence": "Public domain (US newspaper published before 1931); Chronicling America, Library of Congress",
+    "page": "https://www.loc.gov/resource/sn82014519/1920-03-22/ed-1/?sp=7",
+    "source": "https://tile.loc.gov/image-services/iiif/service:ndnp:ct:batch_ct_clash_ver01:data:sn82014519:00414219019:1920032201:0271/4415,3380,850,2110/full/0/default.jpg"
+  },
+  "ch09/solution_of_axe_murders_omaha_bee_1921-12-16.jpg": {
+    "title": "\"Solution of Axe Murders in New Orleans Is Seen\" (Mumfre shot by Pepitone's widow) \u2014 Omaha daily bee (Omaha [Neb.]), December 16, 1921",
+    "artist": "",
+    "date": "1921-12-16",
+    "licence": "Public domain (US newspaper published before 1931); Chronicling America, Library of Congress",
+    "page": "https://www.loc.gov/resource/sn99021999/1921-12-16/ed-1/?sp=1",
+    "source": "https://tile.loc.gov/image-services/iiif/service:ndnp:nbu:batch_nbu_easternredbud_ver01:data:sn99021999:00279551230:1921121601:0705/2190,4105,640,1225/full/0/default.jpg"
+  },
+  "ch06/murderer_of_child_death_sentence_montgomery_1919-10-12.jpg": {
+    "title": "\"Murderer of Child Gets Death Sentence\" (Frank Jordano), AP wire \u2014 The Montgomery advertiser (Montgomery, Ala.), October 12, 1919",
+    "artist": "",
+    "date": "1919-10-12",
+    "licence": "Public domain (US newspaper published before 1931); Chronicling America, Library of Congress",
+    "page": "https://www.loc.gov/resource/sn84020645/1919-10-12/ed-1/?sp=1",
+    "source": "https://tile.loc.gov/image-services/iiif/service:ndnp:au:batch_au_eaton_ver01:data:sn84020645:00517017772:1919101201:0641/4130,6160,690,470/full/0/default.jpg"
+  },
+  "ch02/grocery_facade_genthe_c1920.jpg": {
+    "title": "Facade of a grocery store, New Orleans or Charleston, South Carolina",
+    "artist": "Genthe, Arnold, 1869-1942, photographer",
+    "date": "1920-01-01",
+    "licence": "No known restrictions on publication. For information, see: \"Genthe photograph collection\"  https://hdl.loc.gov/loc.pnp/res.073.agc",
+    "page": "https://www.loc.gov/item/2018705479/",
+    "source": "loc:2018705479"
+  },
+  "ch02/street_corner_nola_genthe_c1920_a.jpg": {
+    "title": "Street corner, New Orleans",
+    "artist": "Genthe, Arnold, 1869-1942, photographer",
+    "date": "1920-01-01",
+    "licence": "No known restrictions on publication. For information, see: \"Genthe photograph collection\"  https://hdl.loc.gov/loc.pnp/res.073.agc",
+    "page": "https://www.loc.gov/item/2018705836/",
+    "source": "loc:2018705836"
+  },
+  "ch02/street_corner_nola_genthe_c1920_b.jpg": {
+    "title": "Street corner, New Orleans",
+    "artist": "Genthe, Arnold, 1869-1942, photographer",
+    "date": "1920-01-01",
+    "licence": "No known restrictions on publication. For information, see: \"Genthe photograph collection\"  https://hdl.loc.gov/loc.pnp/res.073.agc",
+    "page": "https://www.loc.gov/item/2018705837/",
+    "source": "loc:2018705837"
+  },
+  "ch02/street_corner_nola_genthe_c1920_c.jpg": {
+    "title": "Street corner, New Orleans",
+    "artist": "Genthe, Arnold, 1869-1942, photographer",
+    "date": "1920-01-01",
+    "licence": "No known restrictions on publication. For information, see: \"Genthe photograph collection\"  https://hdl.loc.gov/loc.pnp/res.073.agc",
+    "page": "https://www.loc.gov/item/2018705838/",
+    "source": "loc:2018705838"
+  },
+  "ch05/french_market_corner_boys_cart_c1900.jpg": {
+    "title": "[New Orleans, La., a corner of the French Market]",
+    "artist": "Detroit Publishing Co., publisher",
+    "date": "1900-01-01",
+    "licence": "No known restrictions on publication.",
+    "page": "https://www.loc.gov/item/2016795648/",
+    "source": "loc:2016795648"
+  },
+  "ch05/french_market_1910.jpg": {
+    "title": "French Market, New Orleans, La.",
+    "artist": "Detroit Publishing Co., copyright claimant, Detroit Publishing Co., publisher",
+    "date": "1910-01-01",
+    "licence": "No known restrictions on publication.",
+    "page": "https://www.loc.gov/item/2016815371/",
+    "source": "loc:2016815371"
+  },
+  "ch05/french_market_wagons_1905.jpg": {
+    "title": "The old French market and its morning assemblage of wagons, New Orleans, La.",
+    "artist": "Underwood & Underwood, publisher",
+    "date": "1905-01-01",
+    "licence": "No known restrictions on publication.",
+    "page": "https://www.loc.gov/item/2018649343/",
+    "source": "loc:2018649343"
+  },
+  "ch05/at_the_french_market_genthe_c1920.jpg": {
+    "title": "At the French market, New Orleans",
+    "artist": "Genthe, Arnold, 1869-1942, photographer",
+    "date": "1920-01-01",
+    "licence": "No known restrictions on publication. For information, see: \"Genthe photograph collection\"  https://hdl.loc.gov/loc.pnp/res.073.agc",
+    "page": "https://www.loc.gov/item/2018705268/",
+    "source": "loc:2018705268"
+  },
+  "ch05/little_italy_vieux_carre_genthe_c1920.jpg": {
+    "title": "Little Italy in the Vieux Carr\u00e9, New Orleans",
+    "artist": "Genthe, Arnold, 1869-1942, photographer",
+    "date": "1920-01-01",
+    "licence": "No known restrictions on publication. For information, see: \"Genthe photograph collection\"  https://hdl.loc.gov/loc.pnp/res.073.agc",
+    "page": "https://www.loc.gov/item/2018705598/",
+    "source": "loc:2018705598"
+  },
+  "ch05/italian_headquarters_madison_st_1906.jpg": {
+    "title": "Italian headquarters, Madison St., New Orleans, La.",
+    "artist": "Detroit Publishing Co., copyright claimant, Detroit Publishing Co., publisher",
+    "date": "1906-01-01",
+    "licence": "No known restrictions on publication.",
+    "page": "https://www.loc.gov/item/2016805997/",
+    "source": "loc:2016805997"
+  },
+  "ch05/where_the_blame_lies_judge_1891.jpg": {
+    "title": "Where the blame lies / Hamilton.",
+    "artist": "Hamilton, Grant E., artist",
+    "date": "1891-04-04",
+    "licence": "No known restrictions on publication.",
+    "page": "https://www.loc.gov/item/97515495/",
+    "source": "loc:97515495"
+  },
+  "ch03/dont_talk_spies_poster_1918.jpg": {
+    "title": "Don't talk, the web is spun for you with invisible threads, keep out of it, help to destroy it--spies are listening",
+    "artist": "",
+    "date": "1918-01-01",
+    "licence": "No known restrictions on publication. For information see \"World War I Posters\" https://www.loc.gov/rr/print/res/243_wwipos.html",
+    "page": "https://www.loc.gov/item/93515950/",
+    "source": "loc:93515950"
+  },
+  "ch01/us_army_jazz_band_camp_upton_1918.jpg": {
+    "title": "[US Army Jazz Band, Camp Upton]",
+    "artist": "Bain News Service, publisher",
+    "date": "1918-01-01",
+    "licence": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+    "page": "https://www.loc.gov/item/2014707044/",
+    "source": "loc:2014707044"
+  },
+  "ch02/maggio_clipping_1918.jpg": {
+    "title": "File:Maggios.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1918-05-23",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maggios.jpg"
+  },
+  "ch03/besumer_clipping_1918.jpg": {
+    "title": "File:Besumer.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1918-05-26",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Besumer.jpg"
+  },
+  "ch07/axeman_cartoon_1919.jpg": {
+    "title": "File:Cartoon-Axeman.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1918-03-13",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Cartoon-Axeman.jpg"
+  },
+  "ch04/axeman_map_sept1918.jpg": {
+    "title": "File:Map of Axeman.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1918-09-03",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Map_of_Axeman.jpg"
+  },
+  "ch02/davi_clipping_1911.jpg": {
+    "title": "File:Davi - the first fatality of Axeman.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1911-06-28",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Davi_-_the_first_fatality_of_Axeman.jpg"
+  },
+  "ch02/rissetto_clipping_1910.jpg": {
+    "title": "File:Rissettos.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1910-09-20",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Rissettos.jpg"
+  },
+  "ch02/andollina_clipping_1917.jpg": {
+    "title": "File:Andollina.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1917-12-22",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Andollina.jpg"
+  },
+  "ch02/crutti_clipping_1910.jpg": {
+    "title": "File:Crutti.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1910-08-13",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Crutti.jpg"
+  },
+  "ch02/sciambra_clipping_1912.jpg": {
+    "title": "File:Sciambra.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1912-05-16",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sciambra.jpg"
+  },
+  "ch01/mysterious_axman_jazz_cover_1919.jpg": {
+    "title": "File:Mysterious axman.gif",
+    "artist": "Joseph John Devilla, World's Music Publishing Company, New Orleans",
+    "date": "1919",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mysterious_axman.gif"
+  },
+  "ch09/manfre_slaying_la_times_1921-12-25.jpg": {
+    "title": "File:Manfre slaying article.jpg",
+    "artist": "Los Angeles Times, Ben A. Markson story byline",
+    "date": "1921-12-25",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Manfre_slaying_article.jpg"
+  },
+  "ch09/manfre_slaying_la_times_1921-12-25_pt2.jpg": {
+    "title": "File:Manfre slaying pt 2.jpg",
+    "artist": "Los Angeles Times, Ben A. Markson story byline",
+    "date": "1921-12-25",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Manfre_slaying_pt_2.jpg"
+  },
+  "ch01/odjb_publicity_card_1917-18.jpg": {
+    "title": "File:ODJBcard.JPG",
+    "artist": "Unknown authorUnknown author",
+    "date": "between 1917 and 1918date QS:P,+1917-00-00T00:00:00Z/8,P1319,+1917-00-00T00:00:00Z/9,P1326,+1918-00-00T00:00:00Z/9",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:ODJBcard.JPG"
+  },
+  "ch01/eagle_band_nola_1916.jpg": {
+    "title": "File:Eagle Band 1916 New Orleans.jpg",
+    "artist": "Unnamed photographer for \"The New Orleans Item\"",
+    "date": "Photograph: February 1916; first publication, 1 March 1916.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Eagle_Band_1916_New_Orleans.jpg"
+  },
+  "ch07/the_cave_grunewald_hotel_cabaret_1910s.jpg": {
+    "title": "File:CardGrunewaldCave.jpg",
+    "artist": "Photographer not credited.",
+    "date": "1910sdate QS:P,+1910-00-00T00:00:00Z/8 or early 1920s",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:CardGrunewaldCave.jpg"
+  },
+  "ch07/anderson_band_1919.jpg": {
+    "title": "File:AndersonBand1919.jpg",
+    "artist": "Not credited.",
+    "date": "1919",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:AndersonBand1919.jpg"
+  },
+  "ch07/fate_marable_band_ss_sidney_1918.jpg": {
+    "title": "File:Fate Marable's New Orleans Band on the S. S. Sidney.jpg",
+    "artist": "Unknown authorUnknown author",
+    "date": "1918",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Fate_Marable%27s_New_Orleans_Band_on_the_S._S._Sidney.jpg"
+  },
+  "ch01/buddy_bolden_band_c1905.jpg": {
+    "title": "File:Bolden band.gif",
+    "artist": "AnonymousUnknown author",
+    "date": "circa 1900-1906",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bolden_band.gif"
+  },
+  "ch04/grunewald_flu_ad_nola_1918.jpg": {
+    "title": "File:Stop the Pandemic - Stay at Home with Player Piano - Grunewalds Ad New Orleans 1918.jpg",
+    "artist": "Uncredited. Grunewald's music store &amp;/or advertising staff of the Times-Picayune",
+    "date": "1918-10-17",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Stop_the_Pandemic_-_Stay_at_Home_with_Player_Piano_-_Grunewalds_Ad_New_Orleans_1918.jpg"
+  },
+  "ch04/influenza_naval_hospital_nola_1918.jpg": {
+    "title": "File:Treating an Influenza patient at Navl Hospital New Orleans, 1918.jpg",
+    "artist": "Navy Medicine",
+    "date": "1918",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Treating_an_Influenza_patient_at_Navl_Hospital_New_Orleans,_1918.jpg"
+  },
+  "ch04/kofc_hall_flu_hospital_nola_1918.jpg": {
+    "title": "File:Knights of Columbus Hall New Orleans during Influenza Pandemic.jpg",
+    "artist": "John Norris Teunisson",
+    "date": "circa 1918date QS:P,+1918-00-00T00:00:00Z/9,P1480,Q5727902",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Knights_of_Columbus_Hall_New_Orleans_during_Influenza_Pandemic.jpg"
+  },
+  "ch04/seattle_police_flu_masks_1918.jpg": {
+    "title": "File:165-WW-269B-25-police-l restored.jpg",
+    "artist": "",
+    "date": "1918-12",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:165-WW-269B-25-police-l_restored.jpg"
+  },
+  "ch04/armistice_canal_street_nola_1918.jpg": {
+    "title": "File:Navy yeoman and yeomenettes on Canal Street New Orleans celebrating Armistice, World War I.jpg",
+    "artist": "John Gasquet",
+    "date": "1918-11-11",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Navy_yeoman_and_yeomenettes_on_Canal_Street_New_Orleans_celebrating_Armistice,_World_War_I.jpg"
+  },
+  "ch03/liberty_loan_parade_canal_st_nola_1918.jpg": {
+    "title": "File:Fourth Liberty Loan Parade Canal Street New Orleans 1918.jpg",
+    "artist": "Charles L. Franck",
+    "date": "1918-09-28",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Fourth_Liberty_Loan_Parade_Canal_Street_New_Orleans_1918.jpg"
+  },
+  "ch05/parish_prison_lynching_1891_engraving.jpg": {
+    "title": "File:1891 New Orleans Italian lynching.jpg",
+    "artist": "E. Benjamin Andrews",
+    "date": "1912",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:1891_New_Orleans_Italian_lynching.jpg"
+  },
+  "ch06/levee_foot_of_canal_st_c1900.jpg": {
+    "title": "Levee, foot of Canal St., New Orleans",
+    "artist": "Detroit Publishing Co., copyright claimant, Detroit Publishing Co., publisher",
+    "date": "1900-01-01",
+    "licence": "No known restrictions on publication.",
+    "page": "https://www.loc.gov/item/2016798497/",
+    "source": "loc:2016798497"
+  },
+  "ch05/black_hand_members_arrested_fairmont_wv_c1909.jpg": {
+    "title": "Members of Black Hand arrested at Fairmont, W. VA.",
+    "artist": "Bain News Service, publisher",
+    "date": "1900-01-01",
+    "licence": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+    "page": "https://www.loc.gov/item/2014683240/",
+    "source": "loc:2014683240"
+  },
+  "ch08/canal_street_illuminated_night_1903.jpg": {
+    "title": "[Chess Club illuminated. Canal Street, New Orleans, La.]",
+    "artist": "",
+    "date": "1903-01-01",
+    "licence": "No known restrictions on publication.",
+    "page": "https://www.loc.gov/item/2005685064/",
+    "source": "loc:2005685064"
+  },
+  "ch09/canal_street_nola_1910.jpg": {
+    "title": "[Canal Street, New Orleans, La.]",
+    "artist": "Detroit Publishing Co., publisher",
+    "date": "1910-01-01",
+    "licence": "No known restrictions on publication.",
+    "page": "https://www.loc.gov/item/2016811136/",
+    "source": "loc:2016811136"
+  },
+  "ch06/courtroom_wayne_county_building_1902.jpg": {
+    "title": "Court room no. 1, Wayne County Building, Detroit",
+    "artist": "Detroit Publishing Co., copyright claimant, Detroit Publishing Co., publisher",
+    "date": "1902-01-01",
+    "licence": "No known restrictions on publication.",
+    "page": "https://www.loc.gov/item/2016802169/",
+    "source": "loc:2016802169"
+  },
+  "ch03/courtroom_providence_1910.jpg": {
+    "title": "Court Room, Providence",
+    "artist": "Bain News Service, publisher",
+    "date": "1910-01-01",
+    "licence": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+    "page": "https://www.loc.gov/item/2014700725/",
+    "source": "loc:2014700725"
+  },
+  "ch06/river_transfer_boat_nola_1905.jpg": {
+    "title": "[Southern Pacific Railroad transfer boat carrier, New Orleans, La.]",
+    "artist": "Detroit Publishing Co., publisher",
+    "date": "1905-01-01",
+    "licence": "No known restrictions on publication.",
+    "page": "https://www.loc.gov/item/2016811180/",
+    "source": "loc:2016811180"
+  },
+  "ch08/front_page_montgomery_advertiser_1919-10-12.jpg": {
+    "title": "Front page \u2014 The Montgomery advertiser (Montgomery, Ala.), October 12, 1919",
+    "artist": "",
+    "date": "1919-10-12",
+    "licence": "Public domain (US newspaper published before 1931); Chronicling America, Library of Congress",
+    "page": "https://www.loc.gov/resource/sn84020645/1919-10-12/ed-1/?sp=1",
+    "source": "https://tile.loc.gov/image-services/iiif/service:ndnp:au:batch_au_eaton_ver01:data:sn84020645:00517017772:1919101201:0641/0,0,4982,7035/full/0/default.jpg"
+  },
+  "ch07/front_page_morgan_city_daily_review_1919-03-14.jpg": {
+    "title": "Front page \u2014 The Morgan City daily review (Morgan City, La.), March 14, 1919",
+    "artist": "",
+    "date": "1919-03-14",
+    "licence": "Public domain (US newspaper published before 1931); Chronicling America, Library of Congress",
+    "page": "https://www.loc.gov/resource/sn88064293/1919-03-14/ed-1/?sp=1",
+    "source": "https://tile.loc.gov/image-services/iiif/service:ndnp:lu:batch_lu_ivysaur_ver01:data:sn88064293:00295875021:1919031401:0262/0,0,5096,7672/full/0/default.jpg"
+  },
+  "maps/times_picayune_map_new_orleans_1919.jpg": {
+    "title": "The Times-Picayune's map of New Orleans",
+    "artist": "Times-Picayune Publishing Company",
+    "date": "ca. 1919",
+    "licence": "No known copyright restrictions (Boston Public Library, Leventhal Map Center); US publication before 1931",
+    "page": "https://ark.digitalcommonwealth.org/ark:/50959/wd376434p",
+    "source": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:wd376435z/full/6000,/0/default.jpg"
+  }
+}
