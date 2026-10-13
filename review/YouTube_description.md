@@ -9,8 +9,9 @@ The Axeman of New Orleans: The Killer Who Demanded Jazz
 ```
 
 Alternates:
-- `The Axeman of New Orleans: How a Killer Got a City to Throw Him a Party`
+- `How a Killer Got New Orleans to Throw Him a Party`
 - `Play Jazz or Get the Axe: The Unsolved Axeman Murders of 1918–1919`
+- `The Unsolved Axeman Murders: New Orleans, 1918–1919`
 
 ## Description
 
