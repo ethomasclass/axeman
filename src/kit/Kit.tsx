@@ -192,12 +192,13 @@ export const Highlight: React.FC<{text: string; after?: string; x: number; y: nu
 }) => {
   const frame = useGFrame();
   const pal = usePal();
+  const edge = React.useContext(FitEdge);
   const wipe = interpolate(frame, [at, at + 8], [0, 1], clamp);
   const pts: string[] = [];
   const steps = 40;
   for (let i = 0; i <= steps; i++) pts.push(`${(i / steps) * 100}% ${random(`t${seed}${i}`) * 9}%`);
   for (let i = steps; i >= 0; i--) pts.push(`${(i / steps) * 100}% ${100 - random(`b${seed}${i}`) * 9}%`);
-  size = fitSize(text + (after ? ' ' + after : ''), JF.display, 400, size, x, 0.44 + (after ? 0.28 : 0));
+  size = fitSize(text + (after ? ' ' + after : ''), JF.display, 400, size, x, 0.44 + (after ? 0.28 : 0), edge);
   return (
     <div style={{position: 'absolute', left: x, top: y, display: 'flex', alignItems: 'center', gap: size * 0.28, transform: `rotate(${rot}deg)`}}>
       {/* hard shadow: torn tape sits on the paper, it doesn't float */}
@@ -223,9 +224,10 @@ export const Note: React.FC<{text: string; x: number; y: number; size?: number; 
   const frame = useGFrame();
   const accent = accentOf(usePal());
   const hand = useHand();
+  const edge = React.useContext(FitEdge);
   if (frame < at || frame >= out) return null;
   const p = interpolate(frame, [at, at + dur], [0, 1], clamp);
-  const px = fitSize(text, hand.family, hand.weight, size * hand.scale, x);
+  const px = fitSize(text, hand.family, hand.weight, size * hand.scale, x, 0, edge);
   return (
     <div style={{position: 'absolute', left: x, top: y, fontFamily: hand.family, fontWeight: hand.weight, fontSize: px, color: color ?? accent, transform: `rotate(${rot}deg)`, whiteSpace: 'nowrap',
       textShadow: '0 0 2px #111, 0 0 4px #111, 2px 2px 0 #111, -2px 2px 0 #111, 2px -2px 0 #111, -2px -2px 0 #111, 0 3px 12px rgba(0,0,0,0.7)', clipPath: `inset(-20% ${(1 - p) * 100}% -20% -5%)`}}>{text}</div>
@@ -284,6 +286,8 @@ export const useBoilId = () => 'bl' + React.useId().replace(/[^a-zA-Z0-9]/g, '')
  * margin). `extra` reserves that many times the size for padding (Highlight's tape). It measures the real font (JFonts
  * mounts scenes only after the faces load). tools/probe_text.mjs stays the final check. */
 let measureCtx: CanvasRenderingContext2D | null = null;
+/** The x that titles and notes must end before: 1860 in 16:9, 1020 in a vertical (1080-wide) Short. */
+export const FitEdge = React.createContext(1860);
 export const fitSize = (text: string, family: string, weight: number, px: number, x: number, extra = 0, limit = 1860): number => {
   if (typeof document === 'undefined') return px;
   measureCtx = measureCtx ?? document.createElement('canvas').getContext('2d');

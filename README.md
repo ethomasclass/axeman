@@ -75,6 +75,19 @@ chat once, so rotate it in the ElevenLabs dashboard.
    - `tools/beatcheck.py` (do the payoff lines land?)
    - `tools/youtube_check.py`
 
+## Shorts
+
+| Short | File | Notes |
+|---|---|---|
+| "Play jazz, or get the axe." (the letter) | `renders/shorts/Axeman_Short_Letter.mp4` | 45.5 s, its own narration (`script/short_letter.txt`, voiced at the channel pace, 293 credits), scenes in `src/shorts/Letter.tsx`, YouTube text in `review/shorts/` |
+
+Shorts are 1080×1920 compositions built from the same kit:
+- **Layout:** titles high, the picture in the middle, burned-in captions from the word timings low, and the bottom
+  ~400 px and the right rail left clear for YouTube's buttons.
+- **Text fit:** the `FitEdge` context in `Kit.tsx` makes titles and notes fit a 1080-wide frame.
+- **Rendering:** render with `npx remotion render src/index.ts Short-Letter out/short_letter_raw.mp4 --crf=18`, then
+  `python3 tools/master.py out/short_letter_raw.mp4 renders/shorts/Axeman_Short_Letter.mp4`.
+
 ## Setup
 
 ```sh
