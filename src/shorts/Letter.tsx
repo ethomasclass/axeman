@@ -144,9 +144,9 @@ const City: React.FC<{t: TL}> = ({t}) => {
 const Doors: React.FC<{t: TL}> = ({t}) => {
   const g = useGFrame();
   return (
-    <Desk a={t.at('For almost')} flicker>
-      {g >= t.at('For almost') && <Highlight text="1918–1919" x={110} y={240} size={110} at={t.at('For almost')} seed={27} rot={-2} />}
-      <Door x={330} y={470} h={620} at={t.at('For almost')} cut={t.at('chiseling')} />
+    <Desk a={t.at('Since May')} flicker>
+      {g >= t.at('Since May') && <Highlight text="SINCE MAY 1918" x={110} y={240} size={110} at={t.at('Since May')} seed={27} rot={-2} />}
+      <Door x={330} y={470} h={620} at={t.at('Since May')} cut={t.at('chiseling')} />
       <Note text="back doors, chiseled open" x={150} y={1150} size={58} rot={-3} at={t.at('back doors')} color="#ffffff" />
     </Desk>
   );
@@ -161,12 +161,62 @@ const Homes: React.FC<{t: TL}> = ({t}) => (
   </Desk>
 );
 
+/** The panic: the Times-Picayune's cartoon of a man sitting up all night with his shotgun by the door. */
+const Panic: React.FC<{t: TL}> = ({t}) => {
+  const g = useGFrame();
+  const a = t.at('And the city');
+  return (
+    <Desk a={a} flicker>
+      <TintCard src={P.cartoon.src} mask={MASKS.cartoonGuard} at={a - 1} traceAt={a + 8} w={760} x={150} y={400} rot={-2} />
+      {g >= a && <Highlight text="A CITY IN PANIC" x={110} y={230} size={104} at={a + 2} seed={45} rot={-2} />}
+      <VTag text={P.cartoon.tag} />
+    </Desk>
+  );
+};
+
+/** The dead before the letter, written onto an index card as each is named. No pictures of victims. */
+const Killed: React.FC<{t: TL}> = ({t}) => {
+  const g = useGFrame();
+  const pal = usePal();
+  const a = t.at('A grocer');
+  const rows = [
+    {name: 'Joseph & Catherine Maggio', when: 'May 1918', at: a},
+    {name: 'Harriet Lowe', when: 'Aug. 1918', at: t.at('A woman who')},
+    {name: 'Joseph Romano', when: 'Aug. 1918', at: t.at('An elderly man.')},
+    {name: 'Mary Cortimiglia', when: 'March 1919', at: t.at('a little girl,')},
+  ];
+  const w = 940;
+  const rowH = 104;
+  const k = interpolate(g, [a - 1, a + 4], [0, 1], clamp);
+  return (
+    <Desk a={a}>
+      <div style={{position: 'absolute', left: 70, top: 380, width: w, height: 170 + rows.length * rowH, transform: `scale(${0.7 + 0.3 * k}) rotate(-2deg)`, transformOrigin: 'center'}}>
+        <div style={{position: 'absolute', inset: 0, background: '#efe7d6', boxShadow: '0 18px 34px rgba(0,0,0,0.6)',
+          backgroundImage: `linear-gradient(transparent 0, transparent 132px, rgba(214,74,74,0.55) 132px, rgba(214,74,74,0.55) 135px, transparent 135px), repeating-linear-gradient(transparent 0, transparent ${rowH - 2}px, rgba(70,110,160,0.35) ${rowH - 2}px, rgba(70,110,160,0.35) ${rowH}px)`,
+          backgroundPosition: '0 0, 0 48px'}} />
+        <div style={{position: 'absolute', left: 36, top: 30, background: pal.box, padding: '2px 18px', fontFamily: JF.display, fontSize: 64, color: '#111', transform: 'rotate(-2deg)'}}>KILLED</div>
+        {rows.map((r, i) => {
+          if (g < r.at) return null;
+          const p = interpolate(g, [r.at, r.at + 10], [0, 1], clamp);
+          return (
+            <div key={i} style={{position: 'absolute', left: 40, top: 152 + i * rowH, width: w - 80, display: 'flex', alignItems: 'baseline', justifyContent: 'space-between',
+              clipPath: `inset(-20% ${(1 - p) * 100}% -20% -5%)`}}>
+              <span style={{fontFamily: '"Nanum Pen Script"', fontSize: 72, lineHeight: 1, color: i === rows.length - 1 ? '#a3302a' : '#1b2a33', whiteSpace: 'nowrap'}}>{r.name}</span>
+              <span style={{fontFamily: JF.mono, fontSize: 26, color: '#5a5045', whiteSpace: 'nowrap'}}>{r.when}</span>
+            </div>
+          );
+        })}
+      </div>
+    </Desk>
+  );
+};
+
 /** The letter: dated from Hell, signed by the Axeman. */
 const Letter: React.FC<{t: TL}> = ({t}) => {
   const g = useGFrame();
   return (
-    <Desk a={t.at('Then this letter')} flicker push={0.08}>
-      <Clip src={P.herald.src} x={220} y={480} w={640} rot={2} at={t.at('Then this letter') - 1} push={[t.at('Then this letter'), t.at('At 12:15')]} fx={790} fy={300} zoom={1.1} />
+    <Desk a={t.at('Then the letter')} flicker push={0.08}>
+      <Clip src={P.herald.src} x={220} y={480} w={640} rot={2} at={t.at('Then the letter') - 1} push={[t.at('Then the letter'), t.at('At 12:15')]} fx={790} fy={300} zoom={1.1} />
       {g >= t.at('Hell.') && <Highlight text="FROM: HELL" x={110} y={350} size={104} at={t.at('Hell.')} seed={29} rot={-3} />}
       {g >= t.at('signed: the Axeman.') + 4 && <Highlight text="— THE AXEMAN" x={240} y={1040} size={92} at={t.at('signed: the Axeman.') + 4} seed={43} rot={-4} />}
       <VTag text={P.herald.tag} />
@@ -190,28 +240,27 @@ const Spared: React.FC<{t: TL}> = ({t}) => {
   const g = useGFrame();
   return (
     <Desk a={t.at('Every home')}>
-      <EagleCard at={t.at('Every home') - 1} traceAt={t.at('full swing')} />
+      <TintCard src={P.eagle.src} mask={MASKS.eagleCornet} at={t.at('Every home') - 1} traceAt={t.at('full swing')} />
       {g >= t.at('jazz band') && <Highlight text="JAZZ BAND?" x={110} y={240} size={116} at={t.at('jazz band')} seed={33} rot={-3} />}
       <VTag text={P.eagle.tag} />
     </Desk>
   );
 };
 
-/** The Eagle Band on a cream card, the cornet player tinted coral and traced in teal. */
-const EagleCard: React.FC<{at: number; traceAt: number}> = ({at, traceAt}) => {
+/** A picture on a cream card, its subject tinted coral and traced in teal. */
+const TintCard: React.FC<{src: string; mask: typeof MASKS.eagleCornet; at: number; traceAt: number; w?: number; x?: number; y?: number; rot?: number}> = ({src, mask, at, traceAt, w = 900, x = 72, y = 420, rot = 2}) => {
   const f = useCurrentFrame();
   if (f < at) return null;
-  const size = sizeOf(P.eagle.src);
-  const w = 900;
+  const size = sizeOf(src);
   const s = w / size[0];
   const place: Place = {left: 0, top: 0, scale: s};
   const pop = interpolate(f, [at, at + 5], [0.7, 1], clamp);
   return (
-    <div style={{position: 'absolute', left: 72, top: 420, transform: `rotate(2deg) scale(${pop})`, background: '#f4efe6', padding: 18, boxShadow: '0 24px 50px rgba(0,0,0,0.75)'}}>
+    <div style={{position: 'absolute', left: x, top: y, transform: `rotate(${rot}deg) scale(${pop})`, background: '#f4efe6', padding: 18, boxShadow: '0 24px 50px rgba(0,0,0,0.75)'}}>
       <div style={{position: 'relative', width: w, height: size[1] * s}}>
-        <Img src={staticFile(P.eagle.src)} style={{position: 'absolute', left: 0, top: 0, width: w, height: size[1] * s, filter: LOOK.bw}} />
-        <Tint mask={MASKS.eagleCornet.alpha} place={place} size={size} />
-        <div style={{position: 'absolute', left: 0, top: 0}}><Traced paths={MASKS.eagleCornet.data.shapes.subject} place={place} at={traceAt} dur={10} width={6} part={0.92} /></div>
+        <Img src={staticFile(src)} style={{position: 'absolute', left: 0, top: 0, width: w, height: size[1] * s, filter: LOOK.bw}} />
+        <Tint mask={mask.alpha} place={place} size={size} />
+        <div style={{position: 'absolute', left: 0, top: 0}}><Traced paths={mask.data.shapes.subject} place={place} at={traceAt} dur={10} width={6} part={0.92} /></div>
       </div>
     </div>
   );
@@ -305,9 +354,11 @@ const Body: React.FC = () => {
   const cuts: [number, React.ReactNode][] = [
     [0, <Hook t={t} />],
     [at('In March') - 1, <City t={t} />],
-    [at('For almost') - 1, <Doors t={t} />],
+    [at('And the city') - 1, <Panic t={t} />],
+    [at('Since May') - 1, <Doors t={t} />],
     [at('attacking') - 1, <Homes t={t} />],
-    [at('Then this letter') - 1, <Letter t={t} />],
+    [at('A grocer') - 1, <Killed t={t} />],
+    [at('Then the letter') - 1, <Letter t={t} />],
     [at('At 12:15') - 1, <Deadline t={t} />],
     [at('Every home') - 1, <Spared t={t} />],
     [at('Anyone who') - 1, <TheAxe t={t} />],
@@ -331,10 +382,10 @@ const Body: React.FC = () => {
       <Bed src="sfx/crackle.wav" from={stop} to={at('The letter was') + 10} vol={0.14} fadeIn={2} fadeOut={10} />
       <Bed src="music/r_spirits_dark.mp3" from={at('The letter was') - 4} to={end} vol={0.14} fadeIn={8} fadeOut={4} skip={40} />
       <Sounds t={t} cuts={cuts.map(([f]) => f)}
-        stamps={['In March', 'For almost', 'Hell.', 'At 12:15', 'jazz band', 'So New Orleans', 'jazzed it out.', 'Nobody was']}
-        writes={['back doors', 'Anyone who', 'that night.']}
+        stamps={['In March', 'Since May', 'Hell.', 'At 12:15', 'jazz band', 'So New Orleans', 'jazzed it out.', 'Nobody was']}
+        writes={['back doors', 'A grocer', 'A woman who', 'An elderly man.', 'a little girl,', 'Anyone who', 'that night.']}
         ticks={clockTicks(stop, t.end('went.'))}
-        extra={[[at('attacking') + 6, WRITE.src, WRITE.volume], [at('The letter was') + 6, WRITE.src, WRITE.volume], [at('axe.'), 'sfx/boom.wav', 0.42], [at('get the axe.', 2) + 2, 'sfx/boom.wav', 0.42], [at('signed: the Axeman.') + 4, 'sfx/stamp.wav', 0.3], [stop - 1, 'sfx/needle.wav', 0.5], [at('never caught.'), 'sfx/boom.wav', 0.34], [at('never caught.'), 'sfx/stamp.wav', 0.3]]} />
+        extra={[[at('And the city') + 2, 'sfx/stamp.wav', 0.22], [at('attacking') + 6, WRITE.src, WRITE.volume], [at('The letter was') + 6, WRITE.src, WRITE.volume], [at('axe.'), 'sfx/boom.wav', 0.42], [at('get the axe.', 2) + 2, 'sfx/boom.wav', 0.42], [at('signed: the Axeman.') + 4, 'sfx/stamp.wav', 0.3], [stop - 1, 'sfx/needle.wav', 0.5], [at('never caught.'), 'sfx/boom.wav', 0.34], [at('never caught.'), 'sfx/stamp.wav', 0.3]]} />
     </>
   );
 };

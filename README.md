@@ -79,7 +79,7 @@ chat once, so rotate it in the ElevenLabs dashboard.
 
 | Short | File | Notes |
 |---|---|---|
-| "Play jazz, or get the axe." (the letter) | `renders/shorts/Axeman_Short_Letter.mp4` | 45.5 s, its own narration (`script/short_letter.txt`, voiced at the channel pace, 293 credits), scenes in `src/shorts/Letter.tsx`, YouTube text in `review/shorts/` |
+| "Play jazz, or get the axe." (the letter) | `renders/shorts/Axeman_Short_Letter.mp4` | 56.3 s: the threat, the murders that caused the panic, the letter, the party night. Its own narration (`script/short_letter.txt`, voiced at the channel pace; pauses before "And just three days", "Nobody was attacked" and "He was never caught" via `tools/pause.py`), scenes in `src/shorts/Letter.tsx`, YouTube text in `review/shorts/` |
 
 Shorts are 1080×1920 compositions built from the same kit:
 - **Layout:** titles high, the picture in the middle, burned-in captions from the word timings low, and the bottom
