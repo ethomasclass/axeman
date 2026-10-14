@@ -3,33 +3,51 @@
 File: `renders/shorts/Axeman_Short_Letter.mp4` (1080×1920, 56.3 s, −14 LUFS). Script: `script/short_letter.txt`.
 Built from `src/shorts/Letter.tsx` (`npx remotion render src/index.ts Short-Letter`, then `tools/master.py`).
 
-## Title (pick one)
+## Caption (the Short's title)
 
 ```
-Play Jazz or Get the Axe: A Killer's Letter, 1919
+A killer told New Orleans: play jazz or get the axe 🎷🪓
 ```
 
 Alternates:
-- `The Serial Killer Who Demanded Jazz`
-- `New Orleans, 1919: A Killer Promised to Spare Anyone Playing Jazz`
+- `The serial killer who demanded jazz (true story)`
+- `1919: Play jazz… or get the axe`
 
 ## Description
 
 ```
-For almost a year, someone had been breaking into New Orleans homes at night and attacking families in their beds with an axe. Then, in March 1919, a letter signed by "the Axeman" promised to spare every home where a jazz band was playing. Anyone who didn't "jazz it out" would get the axe. So the whole city threw a party.
+New Orleans, 1919. For almost a year, someone had been chiseling through back doors at night and attacking families in their beds with an axe. Then a letter signed "the Axeman" made the whole city an offer: every home with a jazz band playing would be spared.
 
-Full story: Jazz It Out: The Axeman of New Orleans, on 15 Minute History.
+So New Orleans jazzed it out. But was the letter even real? 🎷
+
+Full story: "Jazz It Out: The Axeman of New Orleans" on 15 Minute History.
 
 Images: Times-Picayune and The Herald (1919, Library of Congress, Chronicling America), Wikimedia Commons. All public domain. Music: Original Dixieland Jazz Band, "At the Jazz Band Ball" (Victor, 1918), public domain.
 
 #Shorts #History #TrueCrime #NewOrleans #Jazz
 ```
 
+## Pinned comment
+
+```
+Would you have trusted the Axeman's promise? 🎷🪓 Full story on the channel.
+```
+
+## Cover (vertical thumbnail)
+
+- `renders/shorts/Axeman_Short_Cover_A.png`: the deal. The 1919 sheet music with the pianist in coral, the clock at
+  12:15, an axe's shadow, PLAY JAZZ / OR GET THE AXE. **Recommended.**
+- `renders/shorts/Axeman_Short_Cover_B.png`: the shotgun man. The Times-Picayune cartoon, PLAY JAZZ / OR ELSE
+  (matches the main video's thumbnail A).
+
+Both are 1080×1920 PNGs drawn by `src/shorts/LetterThumb.tsx`
+(`npx remotion still src/index.ts Short-Thumb-A <out.png> --frame=0`). Upload one as the Short's cover where the
+app offers it. If YouTube only shows the frame picker, choose frame 0: it already shows PLAY JAZZ over the door.
+
 ## Upload settings
 
 - **Related video:** set it to the full video (*Jazz It Out*). It shows as a tappable link under the Short, the best
   way to send viewers to the long version.
-- **Thumbnail frame:** frame 0 already shows the hook (PLAY JAZZ over the door); choose it, or the "OR GET THE AXE" frame at 2–3 s.
 - The last line cuts straight back to the first, so the Short loops cleanly.
 - Category Education, not made for kids, same as the main video.
 
